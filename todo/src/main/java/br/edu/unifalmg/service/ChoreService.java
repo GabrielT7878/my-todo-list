@@ -4,12 +4,15 @@ import br.edu.unifalmg.domain.Chore;
 import br.edu.unifalmg.exception.DuplicatedChoreException;
 import br.edu.unifalmg.exception.InvalidDeadlineException;
 import br.edu.unifalmg.exception.InvalidDescriptionException;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+@Getter
 public class ChoreService {
 
     private List<Chore> chores;

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="br.edu.unifalmg.service.ChoreServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-22T19:31:16" hostname="DESKTOP-AQ65D1O" time="0.049">
+<testsuite name="br.edu.unifalmg.service.ChoreServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-09-25T23:37:37" hostname="LinuxMint" time="0.066">
   <properties/>
-  <testcase name="#addChore &gt; When adding a chore &gt; When the chore already exists &gt; Throw an exception" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.034"/>
+  <testcase name="#addChore &gt; When adding a single chore compare the results" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.03"/>
+  <testcase name="#addChore &gt; When adding a chore &gt; When the chore already exists &gt; Throw an exception" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.003"/>
+  <testcase name="#addChore &gt; When adding more than one chore compare the results" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.003"/>
   <testcase name="#addChore &gt; When the deadline is invalid &gt; Throw an exception" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.003"/>
-  <testcase name="addChoreWhenTheDescriptionIsInvalidThrowAnException()" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.009"/>
+  <testcase name="#addChore &gt; Chore when the description is invalid throw an exception" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
